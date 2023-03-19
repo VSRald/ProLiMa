@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>GC Votacion</title>
+  <link rel="stylesheet" href="../Style.css">
+</head>
+<body id="inicio">
+  <header>
+     <nav>
+      <li><a href="../index.html">Inicio</a></li>
+      <li><a href="./siniestro.html">Siniestro Total</a></li>
+      <li><a href="./aerolineas.html">Aerolíneas Federales</a></li>
+      <li><a href="./suaves.html">Los Suaves</a></li>
+      <li><a href="./heredeiros.html">Heredeiros da Crus</a></li>
+      <li><a href="./votacion.html">Votación</a></li>
+    </nav>
+  </header>
+ <h1>Votación</h1>
+  <section class="contenido">
+	<article>
+		<p>
+			Neste apartado podedes facer unha votación do grupo que vos gusta máis destes que vimos, así como das cancións que escoitamos.
+		</p>
+		
+		 <form method="get">
+			<label for="age">Edad</label><br />
+			<input type="number" id="age" name="age" max="110" min="5" value="18" required>
+			
+			<p>Elige el grupo que más te gustó</p>
+			<input type="radio" id="siniestro" name="grupo-fav" value="siniestro">
+			<label for="siniestro">Siniestro Total</label><br />
+			<input type="radio" id="aerolineas" name="grupo-fav" value="aerolineas">
+			<label for="aerolineas">Aerolíneas Federales</label><br />
+			<input type="radio" id="suaves" name="grupo-fav" value="suaves">
+			<label for="suaves">Los Suaves</label><br />
+			<input type="radio" id="heredeiros" name="grupo-fav" value="heredeiros">
+			<label for="heredeiros">Heredeiros da Crus</label><br />
+			<br />
+			  <label for="cancion">Elige la canción que más te gustó </label>
+			  <br />
+			  <input list="canciones" name="cancion" id="cancion">
+			  <datalist id="canciones">
+				<option value="Bailaré sobre tu tumba">
+				<option value="Quienes Somos">
+				<option value="Siniestro Total">
+				<option value="Camino de la cama">
+				<option value="La sociedad es la culpable">
+				<option value="Todo por la napia">
+				<option value="Miña terra galega">
+				<option value="Pueblos del Mundo">
+				<option value="Maldita sea mi suerte">
+				<option value="Dolores se llamaba Lola">
+				<option value="Palabras para Julia">
+				<option value="Pobre Jugador">
+				<option value="Ese día piensa en mi">
+				<option value="Cuando Los Sueños Se Van">
+				<option value="Soy una Punk">
+				<option value="No me beses en los labios">
+				<option value="Asesiné a mi novio">
+				<option value="No se ligar">
+				<option value="Quero xamon">
+				<option value="Non todo é o que parece">
+				<option value="Quero josar">
+				<option value="Non quero nada de ti">
+				<option value="De jalisia ó estranxeiro">
+				<option value="A Chaqueta de lana">
+				<option value="O teu fillo fuma porro">
+				<option value="Que jallo é">
+				<option value="Vaiche boa">
+				<option value="Juventu! Tede cuidado cos paus da lus!!">
+			  </datalist>
+			<br /><br />
+			<label for="coment">Comentario(Opcional)</label><br />			
+			<textarea id="coment" name="coment" rows="15" col="50"></textarea><br />
+			<br />
+			<input type="submit" value="Votar">
+		</form> 
+	</article>
+  </section>
+</body>
+</html>

@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+@media only screen and (min-width: 768px) {
+*{
+	box-sizing:border-box;
+	font-family:"RocknRoll One";
+}
+body{
+	background-image:url(./images/notes.jpg);
+	background-repeat:
+}
+header{
+	position:fixed;
+	width:99%;
+}
+nav{
+	background-color: #23023e;
+	display:flex;
+	justify-content:space-around;
+}
+nav li{
+	list-style:none;
+	padding:15px;
+}
+nav li:hover{
+	background-color: gold;
+	color:darkred;
+	border-radius:20px;
+	transition:1s;
+}
+nav li a{
+	color:#188dd5;
+	text-decoration:none;
+}
+nav li a:hover{
+	color:darkred;
+}
+a.return{
+	margin: 15px 20px;
+	margin-bottom:20px;
+	position:relative;
+}
+a.return button{
+	border-radius:40px;
+	color:#470606;
+	background-color:skyblue;
+	width:60px;
+	height:40px;
+}
+.contenido{
+	background-color:#470606;
+	color:#188dd5;
+	text-align:center;
+	width:65%;
+	padding:9px;
+	border-radius:12px;
+	margin:0 auto;
+}
+h1{
+	font-size:3rem;
+}
+#cuadradoGrupos{
+	background-color:black;
+	color:darkred;
+	border: solid 8px gold;
+	border-radius:20px;
+	padding:5px;
+	display: grid; 
+	grid-template-columns: 1fr 1fr ; 
+	grid-template-rows: 1fr 1fr ; 
+	gap: 20px 20px; 
+	grid-template-areas: 
+		"uno dos"
+		"tres cuatro"; 
+}
+table{
+	font-size:1.5rem;
+	margin:1% auto;
+	border: 8px solid gold;	
+	border-radius:15px;
+}
+table tr th{
+	border: 3px solid gold;
+	background-color: black;
+	color:darkred;
+}
+table tr td{
+	background-color: black;
+	color:darkred;
+}
+.audios{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	justify-content:space-around;
+	align-content:flex-start;
+	border-bottom: double 10px gold;
+	border-top: double 10px gold;
+}
+form{
+	margin: 0 30%;
+	text-align:left;
+}
+
+ /*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { 
+	img{
+		width:60%;
+		height:60%;
+	}
+	table{
+		font-size:1rem;
+		width:60%;
+		height:40%;
+	}
+
+}
+ /*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+	img{
+		width:70%;
+		height:70%;
+	}
+	table{
+		font-size:1rem;
+		width:70%;
+		height:60%;
+	}
+}
+
+ /*X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+
+}
